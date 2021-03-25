@@ -1,0 +1,17 @@
+{
+    "dir": "ltr",
+    "lang": "English",
+    "name": "Runtime Terror",
+    "short_name": "Runtime Terror",
+    "scope": "/",
+    "display": "fullscreen",
+    "start_url": "https://runtimeterror.netlify.app/",
+    "background_color": "#000000",
+    "theme_color": "transparent",
+    "description": "A 24 hours coding contest consist of problems from Data Structures and Algorithms",
+    "orientation": "portrait-primary",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [],
+    "url": "https://runtimeterror.netlify.app/#"
+}
