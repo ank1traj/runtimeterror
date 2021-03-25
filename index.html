@@ -1384,6 +1384,11 @@
     <script src="assets/js/particles.min.js"></script>
     <!-- main js-->
     <script src="assets/js/main.js"></script>
+    <script>
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
 
+        const el = document.createElement('pwa-update');
+        document.body.appendChild(el);
+    </script>
   </body>
 </html>
