@@ -26,19 +26,6 @@
     <link rel="stylesheet" href="style.css">
     <!-- responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
-
-    <script type="text/javascript">
-
-    var titleText = document.title;
-
-    function titleMarquee() {
-
-     titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
-     document.title = titleText;
-     setTimeout("titleMarquee()", 450);
-     }
-
-    </script>
   </head>
   <body>
     <body onload="titleMarquee()">
@@ -1376,7 +1363,7 @@
         <!--footer area end-->
     </div>
     <!--community area end-->
-
+    <script src="assets/js/marquee.js"></script>
     <!-- jquery 2.2.4 js-->
     <script src="assets/js/jquery-2.2.4.min.js"></script>
     <!-- popper js-->
