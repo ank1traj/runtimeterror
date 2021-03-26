@@ -53,9 +53,9 @@
                     <div class="main-menu text-center">
                         <nav>
                             <ul id="slick-nav">
-                                <li><a class="scroll" href="#home">home</a></li>
+                                <li><a class="scroll" href="#home">Home</a></li>
                                 <li><a class="scroll" href="#about">About</a></li>
-                                <li><a class="scroll" href="#Sponsors">Sponsors</a></li>
+                                <li><a class="scroll" href="#sponsors">Sponsors</a></li>
                                 <li><a class="scroll" href="#prizes">Prizes</a></li>
                                 <li><a class="scroll" href="#roadmap">Roadmap</a></li>
                                 <li><a class="scroll" href="#team">Team</a></li>
@@ -282,7 +282,7 @@
     <!--single about area end-->
 
     <!--Sponsors area start-->
-    <div class="section-padding wow fadeInUp documentation-area" id="Sponsors">
+    <div class="section-padding wow fadeInUp documentation-area" id="sponsors">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -348,7 +348,7 @@
             </div>
         </div>
     </div>
-        <div class="section-padding wow fadeInUp documentation-area" id="Paper">
+        <div class="section-padding wow fadeInUp documentation-area" id="sponsors">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -1394,6 +1394,13 @@
 
         const el = document.createElement('pwa-update');
         document.body.appendChild(el);
+    </script>
+    <script>
+        if (screen.width <= 800) {
+            window.location = "https://cuchapter.tech";
+        } else {
+            window.location = "https://runtimeterror.netlify.app/#"
+        }
     </script>
   </body>
 </html>
