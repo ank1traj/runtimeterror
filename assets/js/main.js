@@ -269,6 +269,7 @@
     );
 
   });
+/*
     jQuery(window).on("load", function() { 
     
     //skroll active
@@ -277,7 +278,7 @@
     });
   
     
-    });
+    });*/
 
 })(jQuery);
 
