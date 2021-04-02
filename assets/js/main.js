@@ -23,47 +23,8 @@
             }
         }
     });
-    //single blog quite area  acrousel active
-    $(".quite-area").owlCarousel({
-       loop:true,
-        nav:false,
-        margin:30,
-        autoplay:true,
-        autoplayspeed:1000,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:1
-            },
-            1000:{
-                items:1
-            }
-        }
-    });
 
-        
-    //roadmap carosusel active
-    $(".roadmap-carousel").owlCarousel({
-       loop:true,
-       nav:true,
-       margin:30,
-       autoplay:true,
-       autoplayspeed:1000,
-        navText:['<i class="fa fa-long-arrow-left">','<i class="fa fa-long-arrow-right">'],
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:3
-            }
-        }
-    });
+
  //faq area carousel active
     $(".faq-carousel").owlCarousel({
        loop:true,
@@ -121,7 +82,7 @@
         allowParentlinks:true
     });
      // Set the date we're counting down to
-      var countDownDate = new Date("April 11, 2021 15:37:25").getTime();
+      var countDownDate = new Date("April 10, 2021 18:00:00").getTime();
 
       // Update the count down every 1 second
       var x = setInterval(function() {
@@ -269,8 +230,7 @@
     );
 
   });
-/*
-    jQuery(window).on("load", function() { 
+   /* jQuery(window).on("load", function() { 
     
     //skroll active
     skrollr.init({
@@ -278,8 +238,8 @@
     });
   
     
-    });*/
-
+    });
+*/
 })(jQuery);
 
 
